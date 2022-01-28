@@ -72,3 +72,31 @@ git status
 ```
 git log
 ```
+
+### Working with branches
+
+7. git branch
+    - To get list of branches present in the repo.
+```
+git branch
+```
+8. git branch [branch name]
+    - To create a new branch.
+```
+git branch [branch name]
+```
+9. git branch -d [branch name]
+    - To delete a branch
+```
+git branch -d [branch name]
+```
+10. git checkout -b [branch name]
+    - To create a new branch and switch to that branch
+```
+git checkout -b [branch name]
+```
+11. git switch
+    - To switch to an existing branch
+```
+git switch
+```
