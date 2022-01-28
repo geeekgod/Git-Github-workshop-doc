@@ -138,3 +138,17 @@ An internet hosting provider for software development and version control using 
 3. Packages
 4. Github pages
 5. Github gists
+
+---
+
+## How to add existing local repo to Github
+1. Create a Github Repository.
+
+2. Add origin to the remote repo (Github Repo):
+```
+git remote add origin <url>
+```
+3. Push to the remote repository:
+```
+git push -u origin <main-branch-name>
+```
