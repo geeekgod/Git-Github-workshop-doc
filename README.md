@@ -55,8 +55,20 @@ git add <file1name> <file2name> <file3name>
 git add . 
 ```
 
-3. git add
-    - To add files to the staging area
+4. git commit
+    - To commit the files which are added to staging area & add a relevant message to your commit.
 ```
-git add <filename>
+git commit -m "your message"
+```
+
+5. git status
+    - To get an info about files which are changed & if they are stagged or not.
+```
+git status
+```
+
+6. git log
+    - To get the history of commits.
+```
+git log
 ```
