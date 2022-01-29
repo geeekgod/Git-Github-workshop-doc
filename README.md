@@ -122,7 +122,7 @@ git switch
 
 ## What is Github?
 
-An internet hosting provider for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.
+A website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code.
 
 **Distributed Version control :** tracks and manages changes to software code which is shared between a team.
 
@@ -133,6 +133,7 @@ An internet hosting provider for software development and version control using 
 - Has many outstanding features available which eases the process of software development.
 
 ### Outstanding features of Github:
+
 1. Github projects
 2. Issues
 3. Packages
@@ -142,13 +143,52 @@ An internet hosting provider for software development and version control using 
 ---
 
 ## How to add existing local repo to Github
+
 1. Create a Github Repository.
 
 2. Add origin to the remote repo (Github Repo):
+
 ```
 git remote add origin <url>
 ```
+
 3. Push to the remote repository:
+
 ```
 git push -u origin <main-branch-name>
 ```
+
+### How to work with an existing remote repository
+
+- To clone a remote repo from Github
+
+```
+git clone <git-repo-url>
+```
+
+- To pull the changes from remote to local repo
+
+```
+git pull
+```
+
+- To fetch changes from original remote repo but without file transfer
+
+```
+git fetch
+```
+
+---
+
+## Other useful information:
+
+- Git commands
+
+  - [Read more](https://github.com/joshnh/Git-Commands)
+
+- Git Conventional commits
+
+  - [Read more](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
+
+- Github Student Developer Pack
+  - [Read more](https://education.github.com/pack)
